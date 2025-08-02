@@ -1,0 +1,42 @@
+
+/* -------- STYLES GÉNÉRAUX -------- */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+/* -------- INTERFACE -------- */
+.revision-card {
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: #f1f3f4;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+/* Badge cycle J */
+.j-badge {
+    float: right;
+    background: #dfe6e9;
+    color: #2d3436;
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+
+/* Navigation */
+button.active-view {
+    border: 2px solid #0984e3;
+    background-color: #dfe6e9;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* Etiquettes matières */
+.label-biologie { background-color: #d63031; color: white; padding: 2px 6px; border-radius: 4px; }
+.label-chimie { background-color: #e17055; color: white; padding: 2px 6px; border-radius: 4px; }
+.label-anatomie { background-color: #fdcb6e; color: black; padding: 2px 6px; border-radius: 4px; }
+.label-médicament { background-color: #00b894; color: white; padding: 2px 6px; border-radius: 4px; }
